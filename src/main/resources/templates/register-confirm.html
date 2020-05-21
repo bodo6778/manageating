@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Login Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css"  th:href="@{/css/login.css}" />
+    <!-- Reference Bootstrap files -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+
+        <!-- Icon -->
+        <div class="fadeIn first">
+            <img th:src="@{/images/logomng.png}" id="icon" alt="User Icon" />
+            <h1>Confirmat</h1>
+        </div>
+
+
+        <!-- Remind Passowrd -->
+        <div id="formFooter">
+            <a th:href="@{/showMyLoginPage}" class="underlineHover" >Inapoi la login</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
