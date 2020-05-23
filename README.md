@@ -35,3 +35,8 @@ How to run it:
 - Ability to fire waiters and demote managers.
 - Better UI and frontend.
 - Password change.
+
+Credits:
+ - datatables.net 
+ - fontawesome.com
+ 
