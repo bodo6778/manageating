@@ -2,7 +2,7 @@
 ## REST CRUD Application that manages the orders, the staff and the products of a restaurant.
 ##### Made with Spring Boot, Spring Security, MySQL and Tymeleaf
 
-## Acces the app [here](https://manageating.herokuapp.com/). If it takes a little bit of time to open it, be patient, the server is starting 😊
+## Access the app [here](https://manageating.herokuapp.com/). If it takes a little bit of time to open it, be patient, the server is starting 😊
 
 ##### WIP to translate the app into english
 
