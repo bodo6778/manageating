@@ -32,7 +32,7 @@ public class ComandaController {
 
     @GetMapping("/list")
     public String listComenzi(Model model){
-        //afisare comenzi
+        //afisare comenzi mese
         List<Comanda> comenzi = comandaService.findAll();
         model.addAttribute("comenzi", comenzi);
         return "comenzi/listacomenzi";
