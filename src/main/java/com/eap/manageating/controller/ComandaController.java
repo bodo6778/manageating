@@ -35,8 +35,6 @@ public class ComandaController {
         //afisare comenzi
         List<Comanda> comenzi = comandaService.findAll();
         model.addAttribute("comenzi", comenzi);
-
-
         return "comenzi/listacomenzi";
     }
 
