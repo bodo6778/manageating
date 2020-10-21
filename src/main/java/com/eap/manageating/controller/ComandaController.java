@@ -30,8 +30,6 @@ public class ComandaController {
         this.produsService = produsService;
     }
 
-
-
     @GetMapping("/list")
     public String listComenzi(Model model){
         //afisare comenzi
